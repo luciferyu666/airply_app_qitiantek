@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fps_max_name">
+        <item>@string/fps_max_auto</item>
+        <item>30FPS</item>
+        <item>60FPS</item>
+    </string-array>
+    <string-array name="fps_table_name">
+        <item>1920*1080</item>
+        <item>1280*720</item>
+        <item>1280*1080</item>
+    </string-array>
+    <string-array name="mirror_player">
+        <item>@string/item_adaptive</item>
+        <item>@string/force</item>
+        <item>@string/no_force</item>
+    </string-array>
+    <string-array name="show_player_value">
+        <item>@string/item_player_auto</item>
+        <item>@string/item_player_system</item>
+        <item>@string/item_player_lm</item>
+    </string-array>
+    <string-array name="show_quality_value">
+        <item>@string/item_adaptive</item>
+        <item>@string/continuity_priority</item>
+        <item>@string/quality_priority</item>
+    </string-array>
+    <string-array name="show_rate_value">
+        <item>@string/item_open</item>
+        <item>@string/item_close</item>
+    </string-array>
+
+	<!-- 前的内容作为标识使用  不可删除 -->
+
+    <!-- 需要过滤不显示的目录  -->
+
+    <!-- 播放模式 -->
+
+
+</resources>
+

@@ -1,0 +1,36 @@
+ext {
+    compileSdkVersion = 33
+    minSdkVersion = 24
+    targetSdkVersion = 30
+}
+
+buildscript {
+    ext.kotlin_version = '1.8.0'
+    ext.version_code = 3410
+    ext.version_name = "3.4.10"
+
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

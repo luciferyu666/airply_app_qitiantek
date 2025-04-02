@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/all"
+    android:background="@drawable/bg_bj"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <TextView
+            android:id="@+id/tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/px_positive_50"
+            android:singleLine="true"
+            android:text="@string/keep_same_network"
+            android:textColor="#fff1f1f1"
+            android:visibility="gone"
+            android:textSize="@dimen/px_positive_34" />
+
+
+
+        <LinearLayout
+            android:id="@+id/ios_cast"
+            android:layout_width="@dimen/px_positive_850"
+            android:layout_height="@dimen/px_positive_790"
+             android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/px_positive_50"
+            android:layout_marginRight="@dimen/px_positive_90"
+            android:background="@drawable/bg_tpfs"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/px_positive_22"
+                android:text="@string/ios_cast"
+                android:textColor="#fff1f1f1"
+                android:textSize="@dimen/px_positive_28" />
+
+            <ImageView
+                android:layout_width="@dimen/px_positive_712"
+                android:layout_height="@dimen/px_positive_590"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/px_positive_95"
+                android:src="@drawable/icon_pgyd" />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</FrameLayout>

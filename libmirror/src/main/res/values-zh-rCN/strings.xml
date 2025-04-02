@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="airplay_pwd">Airplay 连接密码</string>
+    <string name="use_hwdecode">使用经典播放器</string>
+
+
+    <string name="ad">广告</string>
+    <string name="allcast_res_auto">自动</string>
+    <string name="already_fix_connect">已成功修复连接</string>
+    <string name="app_installed">该应用已成功安装，可直接在电视上打开</string>
+
+
+    <string name="buisness_coopration_hint">商务合作洽谈请拨打：</string>
+    <string name="buy_author">购买授权</string>
+    <string name="cancel">取消</string>
+    <string name="cast_server_name">会议室投屏</string>
+    <string name="check_android_version">Android版本</string>
+    <string name="check_cast_delay">投屏解码性能</string>
+    <string name="check_cast_delay_des">（最佳解码性能标准：小于110ms）</string>
+    <string name="check_cast_unsupport">系统版本过低，暂不支持解码检测</string>
+    <string name="check_device">设备信息</string>
+    <string name="check_mac">Mac/ip地址</string>
+    <string name="check_manufacturer">厂商信息</string>
+    <string name="check_net">网络状态</string>
+    <string name="check_net_5g_des">（连接5GWi-Fi或接入有线网络，会提高投屏效果）</string>
+    <string name="check_net_delay">投屏网络延时</string>
+    <string name="check_net_delay_des">（最佳延时标准：小于120ms）</string>
+    <string name="check_resolution">分辨率</string>
+    <string name="check_result">检测结果</string>
+    <string name="checking">正在检测...</string>
+    <string name="checking_apk_update">正在检测更新</string>
+    <string name="choose_tv_name">给电视取个名吧</string>
+    <string name="click_to_download">按确认键下载</string>
+    <string name="close">否</string>
+    <string name="connot_input_empty">输入内容不能为空</string>
+    <string name="continuity_priority">流畅优先</string>
+    <string name="cpu_low_hint">（您的电视不支持镜像，建议更换4核以上电视或机顶盒）</string>
+    <string name="current">当前</string>
+    <string name="current_new_apk">当前已是最新版本</string>
+    <string name="current_version">版本</string>
+    <string name="detection">投屏环境检测</string>
+    <string name="download_error">下载失败</string>
+    <string name="downloading_app">正在下载应用</string>
+
+    <string name="expire_date">到期</string>
+    <string name="expire_day">授权剩余%s天</string>
+    <string name="expire_time_over">授权已到期</string>
+    <string name="failed_fix_connect">修复连接失败，请重新尝试修复</string>
+    <string name="feedback">问题反馈</string>
+    <string name="find_new_apk_version">发现新版本，是否更新？</string>
+    <string name="fix_connect">修复连接</string>
+    <string name="force">强制</string>
+    <string name="fps_max_auto">自动选择</string>
+    <string name="grab_hint">投屏过程中如发生抢占不会再提示</string>
+    <string name="grab_whether">Airplay 是否允许被抢占</string>
+    <string name="hard_id">HARDID</string>
+    <string name="has_connected">已连接Wi-Fi：</string>
+    <string name="has_connected_wired">已连接有线网络</string>
+    <string name="he">核</string>
+    <string name="help">帮助</string>
+    <string name="hint_pin_code">投屏码</string>
+    <string name="hint_setting_des">按菜单键进入设置</string>
+    <string name="i_know">知道了</string>
+    <string name="if_doubt_contact">投屏疑问请扫右方二维码联系在线客服</string>
+    <string name="if_doubt_contact_alibaba">投屏疑问请添加QQ群联系在线客服</string>
+    <string name="input_device_name">输入设备名</string>
+    <string name="input_wifi_name">输入Wi-Fi名称</string>
+    <string name="is_restore_default_setting">是否确定恢复默认设置？</string>
+    <string name="item_adaptive">自适应</string>
+    <string name="item_close">关闭</string>
+    <string name="item_game">游戏模式</string>
+    <string name="item_open">开启</string>
+    <string name="item_player_auto">自动选择</string>
+    <string name="item_player_lm">播放器2</string>
+    <string name="item_player_system">播放器1</string>
+    <string name="item_theater">影院模式</string>
+    <string name="jump">跳过</string>
+    <string name="lm_service_agreement">投屏企业版服务协议</string>
+    <string name="loading">正在加载%s的视频教程</string>
+    <string name="loading_data">正在加载数据...</string>
+    <string name="loading_failed">加载失败！</string>
+    <string name="mirror_model_Non_reset">不重置模式</string>
+    <string name="mirror_model_auto">自适应模式</string>
+    <string name="mirror_model_reset">重置模式</string>
+    <string name="modify_success">修改成功</string>
+    <string name="net_error">网络错误</string>
+    <string name="network_not_connect">网络已断开，请连网后重试！</string>
+    <string name="no_force">不强制</string>
+    <string name="nolike_change">都不喜欢，换一批</string>
+    <string name="ok">确定</string>
+    <string name="one_more_back_exit">再按一次退出</string>
+    <string name="open">是</string>
+    <string name="pin_code">投屏码</string>
+    <string name="press_to_pay">按确认键购买授权</string>
+    <string name="protection">投屏防骚扰</string>
+    <string name="protection_is_open">是否开启</string>
+    <string name="protection_lan">局域网投屏防骚扰</string>
+    <string name="protection_lan_device_list">局域网投屏设备管理</string>
+    <string name="protection_wan">云投屏防骚扰</string>
+    <string name="protection_wan_device_list">云投屏设备管理</string>
+    <string name="qr_code_show_whether">是否显示主页二维码</string>
+    <string name="quality_priority">画质优先</string>
+
+    <string name="realse_server_hint">您可以通过搜索连接本设备了</string>
+    <string name="server_searchable">Airplay 是否允许被搜索发现</string>
+    <string name="repair">一键修复</string>
+    <string name="request_time_out">请求超时，可点击重试！</string>
+    <string name="restore_success">恢复成功</string>
+    <string name="retry">重试</string>
+    <string name="server_name">设备名</string>
+    <string name="set_frame_rate">设置分辨率</string>
+    <string name="setting">设置</string>
+    <string name="setting_connect_us">联系我们 (软硬件定制)</string>
+    <string name="setting_connect_us_des">选择你喜欢的方式与我们联系</string>
+    <string name="setting_define_name">自定义名称</string>
+    <string name="setting_define_name_des">重新选择你的电视名称，当前设备名称：</string>
+    <string name="setting_define_name_hint">设备名有非法字符，请重输</string>
+    <string name="setting_developer_options">开发者选项</string>
+    <string name="setting_developer_options_des">开启后，镜像时在电视屏幕右下角显示画面刷新频率，以供开发调试用</string>
+    <string name="setting_forced_mirror_rotation">强制镜像旋转</string>
+    <string name="setting_forced_mirror_rotation_des">如您镜像的横屏画面在电视显示异常时，可尝试切换模式</string>
+    <string name="setting_max_frame_rate">镜像最大帧率</string>
+    <string name="setting_max_frame_rate_des">如您的局域网状态好，可提高最大帧率，反之降低</string>
+    <string name="setting_mirror">镜像投屏设置</string>
+    <string name="setting_mirror_mode">镜像模式</string>
+    <string name="setting_mirror_mode_des">镜像过程中，如遇黑屏、延时等画面异常，可尝试切换模式</string>
+    <string name="setting_mirror_resolution">AirPlay镜像分辨率</string>
+    <string name="setting_mirror_youtube">YouTube 镜像播放</string>
+
+    <string name="setting_mirror_resolution_des">分辨率越高，画面越清晰</string>
+    <string name="setting_restore_default_setting">恢复默认设置</string>
+    <string name="setting_restore_default_setting_des">恢复到系统初始设置</string>
+    <string name="setting_version_update">当前版本</string>
+    <string name="setting_version_update_des">检查并更新到最新版本</string>
+    <string name="setting_video_player">视频播放器</string>
+    <string name="setting_video_player_des">投屏视频后，如遇黑屏、卡顿，可尝试切换播放器</string>
+
+    <string name="soft_down_loading">正在下载</string>
+    <string name="soft_local_update_info">发现新版本</string>
+    <string name="soft_update_hide">隐藏</string>
+    <string name="soft_update_time">更新时间</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="to_hurry_click_wait">正在修复连接，请稍等片刻</string>
+    <string name="try_day">试用剩余%s天</string>
+    <string name="try_time_over">试用已到期</string>
+    <string name="unknow">未知</string>
+    <string name="update">立即更新</string>
+    <string name="version_update">版本更新</string>
+    <string name="view_cast_tutorial">查看投屏教程</string>
+    <string name="watermark_name">投屏</string>
+    <string name="wechat_scan">"打开微信扫一扫
+关注公众号"</string>
+
+    <string name="wechat_scan_flow">微信扫码，关注科技</string>
+    <string name="weixingongzonghao">微信公众号在线客服</string>
+    <string name="wifi_channel">频段</string>
+    <string name="wifi_name">Wi-Fi名称</string>
+    <string name="wifi_name_des">连接有线网络时可备注Wi-Fi名称，让投屏的人知道当前电视所连网络</string>
+    <string name="wifi_name_des2">（此配置名称仅当电视连接有线网络时显示在主页底部）</string>
+    <string name="wired_network">有线网络</string>
+
+    <!-- Home -->
+
+    <!-- Digital Media Download/Uploader -->
+
+    <!-- Digital Media Player -->
+
+    <!-- Digital Media Server -->
+
+    <!-- Settings -->
+
+    <!-- Plugins Picture Player -->
+
+    <!-- Plugins Music Player -->
+
+    <!-- Plugins Video Player -->
+    <string name="plug_video_loading">视频加载中…</string>
+
+    <!-- home screen -->
+    <!--<string name="second_step_dual"> 选择本设备开始屏幕镜像/视频投屏, PC版支持投屏码投屏 </string> -->
+
+    <!-- 作为app 使用, 不带wfd -->
+
+
+    <string name="app_android">扫描二维码安装安卓手机发送端App</string>
+    <string name="app_win">Windows 发送端下载地址:  </string>
+    <string name="app_win_addr"> http://deeprd.com  </string>
+
+    <string name="accept_always"> 始终允许 </string>
+    <string name="accept"> 允许 </string>
+    <string name="refuse"> 拒绝 </string>
+    <string name="try_cast"> 试图投屏到本设备, 是否允许? </string>
+
+  <!--  for sender begin -->
+    <string name="app_name">广电投屏</string>
+
+
+    <string name="second">S</string>
+    <string name="separate">/</string>
+    <string name="load_image_fail">图片加载失败</string>
+    <string name="init_time">00:00</string>
+    <string name="parse_image_fail">图片解析失败</string>
+    <string name="toast_musicplay_fail">音乐播放失败</string>
+    <string name="toast_videoplay_fail">视频播放失败, 请切换到经典播放器尝试</string>
+    <string name="mp_unknown_artist">未知艺术家</string>
+
+    <string name="sign">登录注册</string>
+
+    <string name="signout">退出登录</string>
+    <string name="login">登录</string>
+    <string name="scan_to_login">用【%s】安卓APP扫码登录</string>
+    <string name="exit_tip">真的要退出吗?</string>
+    <string name="click_exit">再按一次退出</string>
+
+
+    <string name="exit">退出</string>
+
+    <string name="exit_cast">退出投屏</string>
+
+    <string name="devname">设备名:</string>
+    <string name="press_menu">按【上键】</string>
+    <string name="enter_setting">进入设置</string>
+    <string name="ip_addr">IP地址：</string>
+
+    <string name="ver">版本：</string>
+    <string name="keep_same_network">请保持投屏的手机或电脑和大屏幕连接同一个网络</string>
+    <string name="android_win_cast">安卓手机、电脑投屏</string>
+    <string name="app_code">输入投屏码</string>
+    <string name="scan_download_app">广电投屏APP扫码投屏</string>
+    <string name="ios_cast">苹果手机投屏</string>
+    <string name="notice">提示</string>
+    <string name="booting">正在启动中...</string>
+
+    <string name="aoa">进入有线连接模式</string>
+    <string name="aoa3">已通过USB连接</string>
+    <string name="enable_in_phone">请在手机点击"开始投屏"</string>
+    <string name="aoa_cast">安卓手机和本机用数据线连接, 可使用有线投屏</string>
+    <string name="_2k_4k_deeprd_com">  </string>
+
+    <string name="ios_dev_connected">正在连接iOS设备, 请稍候</string>
+    <string name="ios_dev_unlock">请解锁设备</string>
+    <string name="ios_dev_trust">请在设备点击"信任", 并输入密码</string>
+    <string name="ios_dev_replug">连接丢失, 请换数据线或者重新插入设备</string>
+
+
+</resources>

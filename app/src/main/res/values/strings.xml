@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string name="airplay_pwd">Airplay connection password</string>
+    <string name="use_hwdecode">Use system (hardware) player</string>
+
+    <string name="second">S</string>
+    <string name="separate"> / </string>
+    <string name="init_time">00:00</string>
+
+
+    <string name="load_image_fail">"image load fail"</string>
+    <string name="parse_image_fail">"image parse fail"</string>
+
+    <string name="toast_musicplay_fail">music play error</string>
+    <string name="toast_videoplay_fail">video play error</string>
+
+    <string name="mp_unknown_artist">Unknow Artist</string>
+    <string name="mp_cant_find_lyrics" translatable="false">the lrc can\'t be found</string>
+    <string name="mp_lyrics_tips" translatable="false">***&#160;&#160;&#160;the lrc come from internet，just be reference&#160;&#160;&#160;***</string>
+
+
+
+    <string name="N_A" translatable="false">N/A</string>
+    <string name="close">No</string>
+    <string name="exit">Exit</string>
+    <string name="vdec">vdec</string>
+    <string name="fps">fps</string>
+    <string name="v_cache">v-cache</string>
+    <string name="a_cache">a-cache</string>
+    <string name="load_cost">load-cost</string>
+    <string name="seek_cost">seek_cost</string>
+    <string name="seek_load_cost">seek_load_cost</string>
+    <string name="tcp_speed">tcp_speed</string>
+    <string name="bit_rate">bit_rate</string>
+
+    <string name="media_information">Media Information</string>
+    <string name="mi_player">Player</string>
+    <string name="mi_media">Media</string>
+    <string name="mi_profile_level">Profile level</string>
+    <string name="mi_pixel_format">Pixel format</string>
+    <string name="mi_resolution">Resolution</string>
+    <string name="mi_length">Length</string>
+    <string name="mi_stream_fmt1">Stream #%d</string>
+    <string name="mi_type">Type</string>
+    <string name="mi_language">Language</string>
+    <string name="mi_codec">Codec</string>
+    <string name="mi_frame_rate">Frame rate</string>
+    <string name="mi_bit_rate">Bit rate</string>
+    <string name="mi_sample_rate">Sample rate</string>
+    <string name="mi_channels">Channels</string>
+    <string name="mi__selected_video_track">*</string>
+    <string name="mi__selected_audio_track">*</string>
+    <string name="mi__selected_subtitle_track">*</string>
+
+    <string name="TrackType_video">Video</string>
+    <string name="TrackType_audio">Audio</string>
+    <string name="TrackType_subtitle">Subtitle</string>
+    <string name="TrackType_timedtext">Timed text</string>
+    <string name="TrackType_metadata">Meta data</string>
+    <string name="TrackType_unknown">Unknown</string>
+
+    <string name="VideoView_error_text_invalid_progressive_playback">Invalid progressive playback</string>
+    <string name="VideoView_error_text_unknown">Unknown</string>
+
+    <string name="VideoView_ar_aspect_fit_parent">Aspect / Fit parent</string>
+    <string name="VideoView_ar_aspect_fill_parent">Aspect / Fill parent</string>
+    <string name="VideoView_ar_aspect_wrap_content">Aspect / Wrap content</string>
+    <string name="VideoView_ar_match_parent">Free / Fill parent</string>
+    <string name="VideoView_ar_16_9_fit_parent">16:9 / Fit parent</string>
+    <string name="VideoView_ar_4_3_fit_parent">4:3 / Fit parent</string>
+
+    <string name="VideoView_render_none">Render: None</string>
+    <string name="VideoView_render_surface_view">Render: SurfaceView</string>
+    <string name="VideoView_render_texture_view">Render: TextureView</string>
+
+    <string name="VideoView_player_AndroidMediaPlayer">Player: AndroidMediaPlayer</string>
+    <string name="VideoView_player_IjkMediaPlayer">Player: IjkMediaPlayer</string>
+    <string name="VideoView_player_IjkExoMediaPlayer">Player: IjkExoMediaPlayer</string>
+
+
+    <string name="ad">AD</string>
+    <string name="allcast_res_auto">Auto</string>
+    <string name="already_fix_connect">Already repair connection</string>
+    <string name="app_installed">The app has been installed and can be opened on the TV</string>
+
+    <string name="buisness_coopration_hint">Buisness coopration call：</string>
+    <string name="buy_author">购买授权</string>
+    <string name="cancel">Cancel</string>
+    <string name="cast_server_name">会议室投屏</string>
+    <string name="check_android_version">Android</string>
+    <string name="check_cast_delay">Decoding</string>
+    <string name="check_cast_delay_des">(Within 110ms is the best)</string>
+    <string name="check_cast_unsupport">System version is too low,no support decoding detection</string>
+    <string name="check_device">Device</string>
+    <string name="check_mac">Mac/ip</string>
+    <string name="check_manufacturer">Manufacturer</string>
+    <string name="check_net">Network state</string>
+    <string name="check_net_5g_des">(Connecting to 5GWi-Fi or wired network is the best)</string>
+    <string name="check_net_delay">Network delay</string>
+    <string name="check_net_delay_des">(Within 120ms is the best)</string>
+    <string name="check_resolution">Resolution</string>
+    <string name="check_result">Detect result</string>
+    <string name="checking">Detecting...</string>
+    <string name="checking_apk_update">Checking App update</string>
+    <string name="choose_tv_name">Make a name for your TV</string>
+    <string name="click_to_download">Press OK to download</string>
+
+    <string name="connot_input_empty">Enter the content can not be empty</string>
+    <string name="continuity_priority">流畅优先</string>
+    <string name="cpu_low_hint">（TV mirror unsupported ，we suggest you to exchange to 4 core tv or box）</string>
+    <string name="current">Current</string>
+    <string name="current_new_apk">Already the latest version</string>
+    <string name="current_version">Version</string>
+    <string name="detection">Equipment detection</string>
+    <string name="download_error">Download Error</string>
+    <string name="downloading_app">Downloading app</string>
+    <string name="egrqudao">Egrqudao</string>
+    <string name="expire_date">到期</string>
+    <string name="expire_day">授权剩余%s天</string>
+    <string name="expire_time_over">授权已到期</string>
+    <string name="failed_fix_connect">Repair connection failed, retry</string>
+    <string name="feedback">Feed back</string>
+    <string name="find_new_apk_version">Find the new version，do you want to update？</string>
+    <string name="fix_connect">Repair Connection</string>
+    <string name="force">强制</string>
+    <string name="fps_max_auto">Auto</string>
+    <string name="grab_hint">If the preemption occurs during the screencasting process, it will not prompt again.</string>
+    <string name="grab_whether">Whether to allow being preempted</string>
+    <string name="hard_id">HARDID</string>
+    <string name="has_connected">已连接WiFi：</string>
+    <string name="has_connected_wired">已连接有线网络</string>
+    <string name="he">core(s)</string>
+    <string name="help">Help</string>
+    <string name="hint_pin_code">投屏码</string>
+    <string name="hint_setting_des">按菜单键进入设置</string>
+    <string name="i_know">知道了</string>
+    <string name="if_doubt_contact">Pls contact us if you have any question.</string>
+    <string name="if_doubt_contact_alibaba">Pls contact us if you have any question.</string>
+    <string name="input_device_name">Input device name</string>
+    <string name="input_wifi_name">输入WiFi名称</string>
+    <string name="is_restore_default_setting">Reset default settings?</string>
+    <string name="item_adaptive">Adaptiv</string>
+    <string name="item_close">Close</string>
+    <string name="item_game">Game</string>
+    <string name="item_open">Open</string>
+    <string name="item_player_auto">Auto selection</string>
+    <string name="item_player_lm">Player2</string>
+    <string name="item_player_system">Player1</string>
+    <string name="item_theater">Theater</string>
+    <string name="jump">Jump</string>
+    <string name="lm_service_agreement">投屏企业版服务协议</string>
+    <string name="loading">Loading video tutorials %s</string>
+    <string name="loading_data">Loading data...</string>
+    <string name="loading_failed">加载失败！</string>
+    <string name="mirror_model_Non_reset">Non-reset</string>
+    <string name="mirror_model_auto">Auto</string>
+    <string name="mirror_model_reset">Reset</string>
+    <string name="modify_success">Successful modification</string>
+    <string name="net_error">net_error</string>
+    <string name="network_not_connect">Network disconnected, please retry after network connect.</string>
+    <string name="no_force">不强制</string>
+    <string name="nolike_change">Refresh</string>
+    <string name="ok">OK</string>
+    <string name="one_more_back_exit">Press back once again to exit</string>
+    <string name="open">Yes</string>
+    <string name="pin_code">Pin code</string>
+    <string name="press_to_pay">按确认键购买授权</string>
+    <string name="protection">Protection</string>
+    <string name="protection_is_open">Is open</string>
+    <string name="protection_lan">protection for LAN</string>
+    <string name="protection_lan_device_list">LAN Device List</string>
+    <string name="protection_wan">protection for WAN</string>
+    <string name="protection_wan_device_list">WAN Device List</string>
+    <string name="qr_code_show_whether">是否显示主页二维码</string>
+    <string name="quality_priority">画质优先</string>
+
+    <string name="realse_server_hint">You can connect to this device by searching.</string>
+    <string name="server_searchable">Whether to allow search to be discovered</string>
+    <string name="repair">Quick repair</string>
+    <string name="request_time_out">The request timeout, can click to retry!</string>
+    <string name="restore_success">Reset Successed</string>
+    <string name="retry">Retry</string>
+    <string name="server_name">Device name</string>
+    <string name="set_frame_rate">Mirror Res.</string>
+    <string name="setting">Setting</string>
+    <string name="setting_connect_us">Contact us</string>
+    <string name="setting_connect_us_des">Choose the way you like</string>
+    <string name="setting_define_name">Custom TV name</string>
+    <string name="setting_define_name_des">Customizing your device name，current name：</string>
+    <string name="setting_define_name_hint">Illegal characters，Please re-enter</string>
+    <string name="setting_developer_options">Developer options</string>
+    <string name="setting_developer_options_des">Refresh rate is displayed when the mirror is turned on</string>
+    <string name="setting_forced_mirror_rotation">Forced mirror rotation</string>
+    <string name="setting_forced_mirror_rotation_des">If you cannot switch to landscape，please click here</string>
+    <string name="setting_max_frame_rate">Mirroring Max FPS</string>
+    <string name="setting_max_frame_rate_des">Good network, improved frame rate</string>
+    <string name="setting_mirror">镜像投屏设置</string>
+    <string name="setting_mirror_mode">Mirror mode</string>
+    <string name="setting_mirror_mode_des">Blank screen &amp; transmission delay，try to switch mirror mode</string>
+    <string name="setting_mirror_resolution">Mirroring resolution</string>
+    <string name="setting_mirror_resolution_des">High resolution &amp; frame rates，high-definition experience</string>
+    <string name="setting_restore_default_setting">Restore default settings</string>
+    <string name="setting_restore_default_setting_des">Restore to system initial Settings</string>
+    <string name="setting_version_update">Current version</string>
+    <string name="setting_version_update_des">Check and update to the latest version</string>
+    <string name="setting_video_player">Video player</string>
+    <string name="setting_video_player_des">Blank screen &amp; graphic lag，try to switch video player</string>
+
+    <string name="soft_down_loading">Downloading</string>
+    <string name="soft_local_update_info">Find new version</string>
+    <string name="soft_update_hide">Hide</string>
+    <string name="soft_update_time">Update time</string>
+    <string name="soft_updating">Updating</string>
+    <string name="to_hurry_click_wait">Click to soon,please wait for a moment</string>
+    <string name="try_day">试用剩余%s天</string>
+    <string name="try_time_over">试用已到期</string>
+    <string name="unknow">Unknow</string>
+    <string name="update">Update now</string>
+    <string name="version_update">Version update</string>
+    <string name="view_cast_tutorial">查看投屏教程</string>
+    <string name="watermark_name"> </string>
+    <string name="wechat_scan">"Use WeChat scan join WeChat Official Account"</string>
+    <string name="wechat_scan_dangbei_shadow">"Use WeChat scan join WeChat Official Account"</string>
+    <string name="wechat_scan_flow">Use WeChat scan QR code and follow us.</string>
+    <string name="weixingongzonghao">WeChat Official Accounts</string>
+    <string name="wifi_channel">Channel</string>
+    <string name="wifi_name">WiFi名称</string>
+    <string name="wifi_name_des">连接有线网络时可备注WiFi名称，让投屏的人知道当前电视所连网络</string>
+    <string name="wifi_name_des2">（此配置名称仅当电视连接有线网络时显示在主页底部）</string>
+    <string name="wired_network">Wired Network</string>
+
+    <string name="allcast_res_fhd">1920*1080</string>
+    <string name="allcast_res_hd">1280*720</string>
+
+
+    <!-- Home -->
+
+    <!-- Digital Media Download/Uploader -->
+
+    <!-- Digital Media Player -->
+
+    <!-- Digital Media Server -->
+
+    <!-- Settings -->
+
+    <!-- Plugins Picture Player -->
+
+    <!-- Plugins Music Player -->
+
+    <!-- Plugins Video Player -->
+    <string name="plug_video_loading">Loading…</string>
+
+    <!-- home screen -->
+
+    <!-- 作为app 使用, 不带wfd -->
+
+    <string name="app_sender">Download app </string>
+    <string name="app_android">Scan to install android app </string>
+    <string name="app_win">More info:  </string>
+    <string name="app_win_addr"> http://iosair.cn  </string>
+
+    <string name="accept_always"> Always Allow</string>
+    <string name="accept"> Allow</string>
+    <string name="refuse"> Refuse</string>
+    <string name="try_cast"> Some device is trying to mirror to current device, do you allow it？</string>
+
+
+    <string name="app_name">AirPlay投屏</string>
+
+
+    <string name="sign">Sign In or Login</string>
+
+    <string name="signout">Log Out</string>
+    <string name="login">Login</string>
+    <string name="scan_to_login">Scan to Login through【%s】android APP</string>
+    <string name="exit_tip">Are you sure to quit?</string>
+    <string name="click_exit">Click again to quit the app</string>
+
+
+    <string name="exit_cast">Exit mirror</string>
+
+
+    <string name="devname">设备名:</string>
+    <string name="press_menu">按【菜单键】</string>
+    <string name="enter_setting">进入设置</string>
+    <string name="ip_addr">IP地址：</string>
+    <string name="hotline"> © 深圳悦石科技, 版权所有, 仅供个人使用 </string>
+    <string name="ver">版本：</string>
+    <string name="keep_same_network">请保持投屏的手机或电脑和大屏幕连接同一个网络</string>
+    <string name="android_win_cast">安卓手机、电脑投屏</string>
+    <string name="app_code">输入投屏码</string>
+    <string name="scan_download_app">蓝莓投屏APP扫码投屏</string>
+    <string name="ios_cast">苹果手机投屏</string>
+    <string name="notice">提示</string>
+    <string name="booting">正在启动中...</string>
+
+    <string name="cicada_success">成功</string>
+
+    <!--title-->
+    <string name="title_player">播放</string>
+    <string name="title_screen_shot">截图</string>
+    <string name="title_choose_item">选择URL界面</string>
+    <string name="title_input_url_item">输入URL界面</string>
+    <string name="title_scanning">二维码扫描</string>
+    <string name="title_setting">设置</string>
+    <string name="title_select_player">播放器选择</string>
+    <string name="title_cicada_player">CicadaPlayer</string>
+    <string name="title_exo_player">ExoPlayer</string>
+
+    <!--setting-->
+    <string name="setting_version">版本号 : </string>
+
+    <!-- 无权限提醒 -->
+    <string name="no_camera_permission">没有权限使用摄像头，请开启摄像头权限</string>
+    <string name="no_record_bluetooth_permission">没有权限使用蓝牙，请开启蓝牙权限</string>
+    <string name="no_record_audio_permission">没有权限使用录音，请开启录音权限</string>
+    <string name="no_read_phone_state_permission">没有读取用户数据的权限，请开启该权限</string>
+    <string name="no_write_external_storage_permission">没有文件写权限，请开启该权限</string>
+    <string name="no_read_external_storage_permission">没有文件读权限，请开启该权限</string>
+
+    <!--提示内容-->
+
+    <!--倍速播放-->
+    <string name="cicada_speed_mode">倍速播放</string>
+    <string name="cicada_speed_one_times">正常</string>
+    <string name="cicada_speed_optf_times">0.5倍速</string>
+    <string name="cicada_speed_opt_times">1.5倍速</string>
+    <string name="cicada_speed_twice_times">2.0倍速</string>
+    <string name="cicada_speed_tips">当前视频已切换为%1$s播放</string>
+
+    <!--手势引导-->
+    <string name="cicada_left_side">左侧</string>
+    <string name="cicada_brightness">亮度</string>
+    <string name="cicada_control">调节</string>
+    <string name="cicada_center">中心</string>
+    <string name="cicada_progress">进度</string>
+    <string name="cicada_right_side">右侧</string>
+    <string name="cicada_volume">音量</string>
+    <string name="cicada_screen_model_small">全屏</string>
+    <string name="cicada_screen_model_large">缩放</string>
+
+    <!--错误-->
+    <string name="cicada_error_msg">错误消息</string>
+    <string name="cicada_error_code">错误码:</string>
+    <string name="cicada_retry">重试</string>
+
+    <string name="cicada_replay_msg">视频播放结束</string>
+    <string name="cicada_replay">重播</string>
+
+    <!--loading-->
+    <string name="cicada_loading">Loading...</string>
+    <!--netError-->
+    <string name="cicada_net_state_mobile">当前为移动网络，请点击播放</string>
+    <string name="cicada_net_state_mobile_yes">继续播放</string>
+    <string name="cicada_net_state_mobile_no">退出播放</string>
+
+    <!-- CicadaPlayer -->
+    <string name="prepare_button">准备</string>
+    <string name="start_button">播放</string>
+    <string name="stop_button">停止</string>
+    <string name="pause_button">暂停</string>
+    <string name="screenshot_button">截图</string>
+    <string name="retry_button">重试</string>
+    <string name="mute_label">静音</string>
+    <string name="auto_play">自动播放</string>
+    <string name="play_back">后台播放</string>
+    <string name="accurate_seek">精准seek</string>
+    <string name="player_loop">循环</string>
+    <string name="hardware_decoder">硬解码</string>
+    <string name="black_list">黑名单</string>
+    <string name="volume_label">音量</string>
+    <string name="auto_bitrate">自动码率</string>
+    <string name="scale_model">缩放模式</string>
+    <string name="aspect_fit">比例填充</string>
+    <string name="aspect_fill">比例全屏</string>
+    <string name="fill">拉伸全屏</string>
+    <string name="cicada_tip_network_reconnect_failed">网络重连失败</string>
+    <string name="cicada_cancel_subtitle_ext">取消外挂字幕</string>
+
+    <!--镜像模式-->
+    <string name="mirror">镜像模式</string>
+    <string name="mirror_none">无镜像</string>
+    <string name="mirror_h">水平镜像</string>
+    <string name="mirror_v">垂直镜像</string>
+
+    <!--旋转模式-->
+    <string name="rotation">旋转模式</string>
+    <string name="roate_0">0°</string>
+    <string name="roate_90">90°</string>
+    <string name="roate_180">180°</string>
+    <string name="roate_270">270°</string>
+
+    <!--track 信息-->
+    <string name="media_info_track_bit_rate">码率</string>
+    <string name="media_info_track_subtitle">字幕</string>
+    <string name="media_info_track_subtitle_ext">外挂字幕</string>
+    <string name="media_info_track_sound_track">音轨</string>
+    <string name="media_info_track_definition">清晰度</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="cicada_media_info">媒体信息</string>
+    <string name="cicada_config_start">启播缓冲时长</string>
+    <string name="cicada_config_katun_recovery">卡顿恢复</string>
+    <string name="cicada_config_max">最大缓冲时长</string>
+    <string name="cicada_config_live_delay">直播最大延迟</string>
+    <string name="cicada_config_net_time_out">网络超时</string>
+    <string name="cicada_config_probe">probe大小</string>
+    <string name="cicada_config_request_referer">请求referer</string>
+    <string name="cicada_config_http_proxy">httpProxy代理</string>
+    <string name="cicada_config_retry_count">重连次数</string>
+    <string name="cicada_config_refresh">应用配置</string>
+    <string name="cicada_config_clear_Frame_when_stop">停止隐藏最后帧</string>
+
+    <string name="cicada_cache_config_switch">开启缓存配置</string>
+    <string name="cicada_cache_config_max_duration">最大时长(单位s)</string>
+    <string name="cicada_cache_config_max_size">最大size(单位MB)</string>
+    <string name="cicada_cache_config_dir">保存路径</string>
+
+    <string name="btn_input_url">输入URL</string>
+
+    <!--download-->
+
+    <!--清晰度-->
+
+
+    <string name="cicada_get_mediainfo_failure">获取MediaInfo失败</string>
+    <string name="cicada_multiple_instances">多实例</string>
+    <string name="cicada_change_track_failure">切换失败</string>
+    <string name="cicada_change_subtitle_track">切换字幕</string>
+    <string name="cicada_change_audio_track">切换音轨</string>
+    <string name="cicada_change_bitate_track">切换码率</string>
+
+    <string name="cicada_refresh_config_success">刷新配置成功</string>
+    <string name="cicada_none_mediainfo">暂无媒体信息</string>
+    <string name="cicada_resolution">分辨率</string>
+    <string name="cicada_subtitle">字幕</string>
+    <string name="cicada_bitrate">码率</string>
+    <string name="cicada_audio">音轨</string>
+    <string name="cicada_mirror">镜像模式:</string>
+    <string name="cicada_rotate">旋转模式:</string>
+
+    <string name="cicada_setting">去设置</string>
+    <string name="cicada_setting_cancel">暂不设置</string>
+
+    <string name="cicada_prepare_success">准备完成</string>
+    <string name="cicada_snap_shot_failure">获取截图失败</string>
+    <string name="cicada_snap_shotting">正在截图中,请稍后</string>
+    <string name="cicada_unable_start_hardware_decoder">无法开启硬解</string>
+    <string name="cicada_copy_file_failure">拷贝文件失败</string>
+
+    <string name="setting_mirror_youtube">YouTube 镜像播放</string>
+    <string name="aoa">进入有线连接模式</string>
+    <string name="aoa3">已通过USB连接</string>
+    <string name="enable_in_phone">请在手机点击"开始投屏"</string>
+    <string name="aoa_cast">安卓手机和本机用数据线连接, 可使用有线投屏</string>
+    <string name="_2k_4k_deeprd_com"> Windows 版本正式推出, 欢迎在官网 iosair.cn 下载体验 </string>
+    <string name="rtp_mode"> 安卓镜像数据传输协议 </string>
+    <string name="ios_dev_connected">正在连接iOS设备, 请稍候</string>
+    <string name="ios_dev_unlock">请解锁设备</string>
+    <string name="ios_dev_trust">请在设备点击"信任", 并输入密码</string>
+    <string name="ios_dev_replug">连接丢失, 请换数据线或者重新插入设备</string>
+    <string name="bt_device_conn">连接手机蓝牙(反控手机)</string>
+
+
+</resources>

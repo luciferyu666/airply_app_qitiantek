@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="blur_img" />
+    <item type="id" name="ac_about_1" />
+    <item type="id" name="ac_about_2" />
+    <item type="id" name="ac_about_3" />
+    <item type="id" name="ac_about_5" />
+    <item type="id" name="contact_us_weixin" />
+    <item type="id" name="ac_about_img" />
+    <item type="id" name="ac_about_6" />
+    <item type="id" name="contact_us_qq" />
+    <item type="id" name="textureView1" />
+    <item type="id" name="textView1" />
+    <item type="id" name="fullscreen_content_controls" />
+    <item type="id" name="dummy_button" />
+    <item type="id" name="dummy_button1" />
+    <item type="id" name="dummy_button2" />
+    <item type="id" name="dummy_button3" />
+    <item type="id" name="checkBox1" />
+    <item type="id" name="ac_conatienr" />
+    <item type="id" name="main_content_fl" />
+    <item type="id" name="content_sv" />
+    <item type="id" name="content_ll" />
+    <item type="id" name="pay_web" />
+    <item type="id" name="no_network_failed_ll" />
+    <item type="id" name="request_failed_ll" />
+    <item type="id" name="loading_cp" />
+    <item type="id" name="rename_layout" />
+    <item type="id" name="title" />
+    <item type="id" name="des" />
+    <item type="id" name="des2" />
+    <item type="id" name="rename_et" />
+    <item type="id" name="cancel_tv" />
+    <item type="id" name="ok_tv" />
+    <item type="id" name="setting" />
+    <item type="id" name="welcome_whole_framelayout" />
+    <item type="id" name="device_setting_root" />
+    <item type="id" name="setting_device_layout" />
+    <item type="id" name="setting_device_title_tx" />
+    <item type="id" name="setting_device_des_tx" />
+    <item type="id" name="des_txt" />
+    <item type="id" name="dialog_confirm_title" />
+    <item type="id" name="dialog_confirm_body" />
+    <item type="id" name="dialog_cofirm_cancel_btn" />
+    <item type="id" name="dialog_cofirm_ok_btn" />
+    <item type="id" name="dialog_for_tag" />
+    <item type="id" name="dialog_setting_device_title_txt" />
+    <item type="id" name="dialog_setting_device_edit_txt" />
+    <item type="id" name="dialog_setting_device_cancel" />
+    <item type="id" name="dialog_setting_device_ok" />
+    <item type="id" name="update_title_tv" />
+    <item type="id" name="update_content_sv" />
+    <item type="id" name="update_content_ll" />
+    <item type="id" name="update_des_tv" />
+    <item type="id" name="update_version_tv" />
+    <item type="id" name="update_time_tv" />
+    <item type="id" name="update_pgb" />
+    <item type="id" name="update_btn" />
+    <item type="id" name="root_view" />
+    <item type="id" name="f_choose_name_view" />
+    <item type="id" name="home_bg" />
+    <item type="id" name="device_name_tv" />
+    <item type="id" name="pinCode_tv" />
+    <item type="id" name="qr_tv" />
+    <item type="id" name="info_layout" />
+    <item type="id" name="app_name_version_tv" />
+    <item type="id" name="pay_status_tv" />
+    <item type="id" name="wifi_name_tv" />
+    <item type="id" name="edit_icon_tv" />
+    <item type="id" name="setting_icon_tv" />
+    <item type="id" name="mag_iv" />
+    <item type="id" name="i_know_tv" />
+    <item type="id" name="back_layout" />
+    <item type="id" name="bottom_iv" />
+    <item type="id" name="update_checking_ll" />
+    <item type="id" name="update_result_ll" />
+    <item type="id" name="update_result_msg" />
+    <item type="id" name="update_ok_btn" />
+    <item type="id" name="updating_ll" />
+    <item type="id" name="apk_update_progressbar" />
+    <item type="id" name="message"/>
+
+    <!--  for sender begin -->
+    <!--  for sender end -->
+    <item name="custom_id_min" type="id"/>
+    <item name="cicada_player_subtitle" type="id" />
+
+    <item name="cicada_player_ass_subtitle" type="id" />
+</resources>

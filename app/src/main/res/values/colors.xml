@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--
+Blue: #157efb
+Black Text: #262626
+Border: #b2b2b2
+Background: #fafaff
+-->
+    <color name="blue">#157EFB</color>
+
+
+    <color name="auth_expire">#ffffff</color>
+	<color name="banner_bg">#7e464646</color>
+	<color name="banner_text_bg">#ff4a4a4a</color>
+	<color name="black">#ff000000</color>
+
+	<color name="bottom_bg">#33000000</color>
+	<color name="btn_text">#ff3a91ff</color>
+	<color name="col_222328">#ff222328</color>
+	<color name="col_70_opacity_white">#b3ffffff</color>
+	<color name="col_80_opacity_white">#d9ffffff</color>
+	<color name="custom_bg_color">#ff232121</color>
+	<color name="custom_dialog_background">#ff6b6a6f</color>
+	<color name="custom_dialog_stroke">#ff3d3d3d</color>
+	<color name="expire_day">#fff8ca93</color>
+	<color name="gray">#7f1a1a1a</color>
+	<color name="home_bg">#ff2f74db</color>
+	<color name="loading_bg">#ff222328</color>
+	<color name="trans_white_0">#ffffffff</color>
+	<color name="trans_white_10">#e5ffffff</color>
+	<color name="trans_white_100">#00ffffff</color>
+	<color name="trans_white_15">#d8ffffff</color>
+	<color name="trans_white_20">#ccffffff</color>
+	<color name="trans_white_25">#bfffffff</color>
+	<color name="trans_white_30">#b2ffffff</color>
+	<color name="trans_white_35">#a5ffffff</color>
+	<color name="trans_white_40">#99ffffff</color>
+	<color name="trans_white_45">#8cffffff</color>
+	<color name="trans_white_5">#f2ffffff</color>
+	<color name="trans_white_50">#7fffffff</color>
+	<color name="trans_white_55">#72ffffff</color>
+	<color name="trans_white_60">#66ffffff</color>
+	<color name="trans_white_65">#59ffffff</color>
+	<color name="trans_white_70">#4cffffff</color>
+	<color name="trans_white_75">#3fffffff</color>
+	<color name="trans_white_80">#33ffffff</color>
+	<color name="trans_white_85">#21ffffff</color>
+	<color name="trans_white_90">#19ffffff</color>
+	<color name="trans_white_95">#0cffffff</color>
+	<color name="trans_black_0">#000000ff</color>
+    <color name="transparent">#00000000</color>
+	<color name="transparent_20">#33ffffff</color>
+	<color name="update_red">#fffe3b31</color>
+	<color name="welcome_bg">@color/black</color>
+
+	<color name="wifi_name">@color/white</color>
+
+	<!-- Retrieved via Resources.getColor() and friends. -->
+    <!--	<color name="blue">#00f</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#ddd</color>
+    <color name="white">#ffffff</color>-->
+	<color name="visualize_fx">#44b121</color>
+	
+	<color name="lyrics">#a3bfe5</color>
+    <color name="lyrics_hl">#7aba78</color>
+
+
+    <!--
+    <color name="ijk_color_blue_main">@color/ijk_color_blue_500</color>
+    <color name="ijk_color_blue_50">#E3F2FD</color>
+    <color name="ijk_color_blue_100">#BBDEFB</color>
+    <color name="ijk_color_blue_200">#90CAF9</color>
+    <color name="ijk_color_blue_300">#64B5F6</color>
+    <color name="ijk_color_blue_400">#42A5F5</color>
+    <color name="ijk_color_blue_500">#2196F3</color>
+    <color name="ijk_color_blue_600">#1E88E5</color>
+    <color name="ijk_color_blue_700">#1976D2</color>
+    <color name="ijk_color_blue_800">#1565C0</color>
+    <color name="ijk_color_blue_900">#0D47A1</color>
+-->
+
+    <color name="setup_item_bg">#19ffffff</color>
+
+
+	<color name="colorPrimary">#2079EB</color>
+	<color name="colorPrimaryDark">#3700B3</color>
+	<color name="colorAccent">#157EFB</color>
+<!--	<color name="colorAccent">#03DAC5</color>-->
+
+	<color name="white">#fff</color>
+
+
+    <color name="text">#fff1f1f1</color>
+
+
+
+    <color name="cicada_little_download_bg">#B3373D41</color>
+    <color name="cicada_white">#e7e7e7</color>
+    <color name="cicada_info_text_duration">#9f9e9e</color>
+    <color name="cicada_color_rate_item">#4c000000</color>
+
+    <color name="cicada_blue">#379DF2</color>
+
+
+    <color name="cicada_dialog_error_bg">#b2000000</color>
+    <color name="cicada_dialog_gesture_bg">#66ffffff</color>
+    <color name="cicada_subtitle_view_bg">#6fa9a9a9</color>
+    <color name="cicada_gesture_text_color">#333333</color>
+
+
+	<!--bottombar 切换颜色-->
+	<color name="tab_unselect">#bababa</color>
+	<color name="tab_select">#009788</color>
+
+	<!--窗口背景-->
+	<color name="bg_window">#212121</color>
+	<!--item背景-->
+	<color name="bg_un_item">#9E9B9B</color>
+	<color name="bg_item">#303030</color>
+	<!-- 主标题-->
+	<color name="main_text">#d6d6d6</color>
+	<color name="red_text">#F60808</color>
+
+	<!--副标题-->
+	<color name="subtitle">#bababa</color>
+	<!--分割线-->
+	<color name="dividing_line">#202020</color>
+	<!--主色调-->
+	<color name="main_color">#009788</color>
+
+	<color name="subtitle_color">#05B6A5</color>
+
+	<color name="x_shadow_color">#e3e6c7</color>
+	<color name="x_checkline_color">#1c1c1c</color>
+	<color name="x_button_color">#ffffff</color>
+	<color name="x_checked_color">#3c4145</color>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical"
+    android:background="#ff000000"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/rename_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_positive_200">
+
+        <TextView
+            android:textSize="@dimen/px_positive_48"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/server_name" />
+
+        <TextView
+            android:textSize="@dimen/px_positive_36"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@id/des"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_positive_10"
+            android:text="@string/wifi_name_des" />
+
+        <TextView
+            android:textSize="@dimen/px_positive_30"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/des2"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wifi_name_des2" />
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:textSize="@dimen/px_positive_58"
+                android:textColor="@color/white"
+                android:id="@id/rename_et"
+                android:background="@drawable/selector_edittxt_bg"
+                android:padding="@dimen/px_positive_9"
+                android:gravity="center"
+                android:layout_width="@dimen/px_positive_752"
+                android:layout_height="@dimen/px_positive_98"
+                android:layout_marginTop="@dimen/px_positive_30"
+                android:hint="输入设备名"
+                android:singleLine="true"
+                android:maxLength="10"
+                android:layout_weight="7.0" />
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px_positive_50">
+
+                <Button
+                    android:textSize="@dimen/px_positive_36"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:id="@id/cancel_tv"
+                    android:background="@drawable/selector_common_bg"
+                    android:focusable="true"
+                    android:layout_width="@dimen/px_positive_360"
+                    android:layout_height="@dimen/px_positive_102"
+                    android:text="@string/cancel" />
+
+                <Button
+                    android:textSize="@dimen/px_positive_36"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_gravity="right"
+                    android:id="@id/ok_tv"
+                    android:background="@drawable/selector_common_bg"
+                    android:focusable="true"
+                    android:layout_width="@dimen/px_positive_360"
+                    android:layout_height="@dimen/px_positive_102"
+                    android:text="@string/ok" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

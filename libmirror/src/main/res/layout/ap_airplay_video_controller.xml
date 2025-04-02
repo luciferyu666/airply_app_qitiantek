@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ap_bg_mask"
+    android:paddingLeft="@dimen/px_positive_30"
+    android:paddingRight="@dimen/px_positive_30">
+
+    <LinearLayout
+        android:id="@+id/ll_scale_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/px_positive_15"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/btn_aspect_fit"
+            android:layout_width="@dimen/px_positive_216"
+            android:layout_height="@dimen/px_positive_90"
+            android:background="@drawable/ap_plug_vp_text_btn_bg"
+            android:gravity="center"
+            android:nextFocusRight="@+id/btn_speed_70"
+            android:text="适应"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/px_positive_32" />
+
+        <Button
+            android:id="@+id/btn_aspect_fill"
+            android:layout_width="@dimen/px_positive_216"
+            android:layout_height="@dimen/px_positive_90"
+            android:layout_marginLeft="@dimen/px_positive_30"
+            android:background="@drawable/ap_plug_vp_text_btn_bg"
+            android:gravity="center"
+            android:text="拉伸"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/px_positive_32" />
+
+        <Button
+            android:id="@+id/btn_to_fill"
+            android:layout_width="@dimen/px_positive_216"
+            android:layout_height="@dimen/px_positive_90"
+            android:layout_marginLeft="@dimen/px_positive_30"
+            android:background="@drawable/ap_plug_vp_text_btn_bg"
+            android:gravity="center"
+            android:text="填充"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/px_positive_32" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_play_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ll_scale_mode"
+        android:paddingBottom="@dimen/px_positive_15"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/btn_speed_50"
+            android:layout_width="@dimen/px_positive_216"
+            android:layout_height="@dimen/px_positive_90"
+            android:background="@drawable/ap_plug_vp_text_btn_bg"
+            android:gravity="center"
+            android:nextFocusRight="@+id/btn_speed_70"
+            android:text="0.5X"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/px_positive_32" />
+
+        <Button
+            android:id="@+id/btn_speed_75"
+            android:layout_width="@dimen/px_positive_216"
+            android:layout_height="@dimen/px_positive_90"
+            android:layout_marginLeft="@dimen/px_positive_30"
+            android:background="@drawable/ap_plug_vp_text_btn_bg"
+            android:gravity="center"
+            android:text="0.75X"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/px_positive_32" />
+
+        <Button
+            android:id="@+id/btn_speed_100"
+            android:layout_width="@dimen/px_positive_216"
+            android:layout_height="@dimen/px_positive_90"
+            android:layout_marginLeft="@dimen/px_positive_30"
+            android:background="@drawable/ap_plug_vp_text_btn_bg"
+            android:gravity="center"
+            android:text="1.0X"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/px_positive_32" />
+
+
+        <Button
+            android:id="@+id/btn_speed_125"
+            android:layout_width="@dimen/px_positive_216"
+            android:layout_height="@dimen/px_positive_90"
+            android:layout_marginLeft="@dimen/px_positive_30"
+            android:background="@drawable/ap_plug_vp_text_btn_bg"
+            android:gravity="center"
+            android:text="1.25X"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/px_positive_32" />
+
+        <Button
+            android:id="@+id/btn_speed_150"
+            android:layout_width="@dimen/px_positive_216"
+            android:layout_height="@dimen/px_positive_90"
+            android:layout_marginLeft="@dimen/px_positive_30"
+            android:background="@drawable/ap_plug_vp_text_btn_bg"
+            android:gravity="center"
+            android:text="1.5X"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/px_positive_32" />
+
+        <Button
+            android:id="@+id/btn_speed_200"
+            android:layout_width="@dimen/px_positive_216"
+            android:layout_height="@dimen/px_positive_90"
+            android:layout_marginLeft="@dimen/px_positive_30"
+            android:background="@drawable/ap_plug_vp_text_btn_bg"
+            android:gravity="center"
+            android:text="2.0X"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/px_positive_32" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:paddingTop="@dimen/px_positive_10"
+        android:layout_marginTop="@dimen/px_positive_20"
+        android:background="@drawable/ap_video_controller_bg"
+        android:layout_below="@+id/ll_play_speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/ll_seek_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/menubar_btn_volumeminus"
+                style="@style/VolumeButton"
+                android:src="@drawable/ap_plug_vp_volume_sub"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <!--  android:paddingStart="20dp"
+                android:maxHeight="@dimen/px_positive_10"
+                    android:paddingTop="5dip"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="5dip" -->
+                <SeekBar
+                    android:id="@+id/mediacontroller_progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/ap_seek_bg"
+                    android:maxHeight="@dimen/px_positive_15"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:thumb="@drawable/ap_progress_thumb_p0"
+                    android:progressDrawable="@drawable/ap_play_seekbar_bg"
+                    android:splitTrack="false"
+                    />
+                <RelativeLayout
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="18sp">
+                    <TextView
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/time_current"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dip"
+                        android:paddingRight="4dip"
+                        android:text="00:00:00"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dip"
+                        android:paddingRight="4dip"
+                        android:textColor="#FFFFFF"
+                        android:text="00:00:00"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+
+
+            <ImageButton
+                android:id="@+id/menubar_btn_volumeplus"
+                style="@style/VolumeButton"
+                android:src="@drawable/ap_plug_vp_volume_add"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_seek_bar"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/px_positive_50"
+            android:paddingRight="@dimen/px_positive_50"
+            android:paddingBottom="10dip">
+
+            <!--        <ImageButton
+                        android:id="@+id/menubar_btn_screenMode"
+                        style="@style/MediaButton.ScreenMode" />-->
+
+
+            <FrameLayout
+                android:layout_width="0dip"
+                android:layout_height="0dip"
+                android:layout_weight="4" />
+            <!--            <Button-->
+            <!--                android:id="@+id/menubar_btn_screenMode"-->
+            <!--                android:layout_width="0dip"-->
+            <!--                android:layout_height="@dimen/px_positive_60"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:background="@drawable/dmr_plug_vp_text_btn_bg"-->
+            <!--                android:gravity="center"-->
+            <!--                android:nextFocusRight="@+id/menubar_btn_prev"-->
+            <!--                android:singleLine="true"-->
+            <!--                android:text="显示模式"-->
+            <!--                android:textColor="#FFFFFF"-->
+            <!--                android:textSize="@dimen/px_positive_28" />-->
+
+            <ImageButton
+                android:id="@+id/menubar_btn_screenMode"
+                style="@style/MediaButton.Scale" />
+
+            <ImageButton
+                android:id="@+id/menubar_btn_screenBright"
+                style="@style/MediaButton.ScreenBright"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/menubar_btn_prev"
+                style="@style/MediaButton.Previous" />
+
+            <ImageButton
+                android:id="@+id/menubar_btn_pause"
+                style="@style/MediaButton.Play" />
+
+            <ImageButton
+                android:id="@+id/menubar_btn_next"
+                style="@style/MediaButton.Next" />
+
+            <ImageButton
+                android:id="@+id/menubar_btn_exit"
+                style="@style/MediaButton.Exit"
+                android:visibility="gone" />
+
+            <!--            <Button-->
+            <!--                android:id="@+id/menubar_btn_more"-->
+            <!--                android:layout_width="0dip"-->
+            <!--                android:layout_height="@dimen/px_positive_60"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:background="@drawable/dmr_plug_vp_text_btn_bg"-->
+            <!--                android:gravity="center"-->
+            <!--                android:nextFocusLeft="@+id/menubar_btn_next"-->
+            <!--                android:singleLine="true"-->
+            <!--                android:text="倍速播放"-->
+            <!--                android:textColor="#FFFFFF"-->
+            <!--                android:textSize="@dimen/px_positive_28" />-->
+            <ImageButton
+                android:id="@+id/menubar_btn_more"
+                style="@style/MediaButton.Btnmore" />
+            <FrameLayout
+                android:layout_width="0dip"
+                android:layout_height="0dip"
+                android:layout_weight="4" />
+
+            <!--        <ImageButton
+                        android:id="@+id/menubar_btn_more"
+                        android:nextFocusLeft="@+id/menubar_btn_next"
+                        style="@style/MediaButton.More" />-->
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

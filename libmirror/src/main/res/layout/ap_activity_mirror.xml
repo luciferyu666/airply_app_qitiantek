@@ -1,0 +1,67 @@
+<!-- The main content view -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keepScreenOn='true'
+    android:id="@+id/ex_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <View
+        android:id="@+id/h_placeholder"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true" />
+
+    <View
+        android:id="@+id/v_placeholder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerVertical="true" />
+
+
+    <!-- 默认一个   -->
+    <com.aircast.mirror.media.IjkVideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:clickable="true"
+    />
+
+
+    <LinearLayout
+        android:id="@+id/llExit"
+        android:layout_width="@dimen/px_positive_440"
+        android:layout_height="@dimen/px_positive_88"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ap_tv_toast_bg"
+        android:layout_marginBottom="@dimen/px_positive_100"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/px_positive_32"
+            android:layout_height="@dimen/px_positive_32"
+            android:layout_marginLeft="@dimen/px_positive_135"
+            android:layout_gravity="center"
+            android:alpha="0.8"
+            android:background="@mipmap/ap_icon_yuichu" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/px_positive_6"
+            android:text="@string/exit_cast"
+            android:background="@color/trans_black_0"
+            android:textColor="#fff1f1f1"
+            android:textSize="@dimen/px_positive_32" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

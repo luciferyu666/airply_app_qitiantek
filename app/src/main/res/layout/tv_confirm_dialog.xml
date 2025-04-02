@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tv_dialog_bg"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_positive_30"
+        android:layout_marginTop="@dimen/px_positive_20"
+        android:text="@string/notice"
+        android:textColor="#fff1f1f1"
+        android:textSize="@dimen/px_positive_24" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/px_positive_88"
+        android:text="@string/exit_tip"
+        android:textColor="#fff1f1f1"
+        android:textSize="@dimen/px_positive_28" />
+
+
+    <Button
+        android:id="@+id/view1"
+        android:layout_width="@dimen/px_positive_160"
+        android:layout_height="@dimen/px_positive_66"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="@dimen/px_positive_50"
+        android:layout_marginTop="@dimen/px_positive_49"
+        android:layout_marginBottom="@dimen/px_positive_30"
+        android:background="@drawable/tv_dlg_btn_bg"
+        android:gravity="center"
+        android:text="@string/exit"
+        android:textColor="#fff1f1f1"
+        android:textSize="@dimen/px_positive_24" />
+
+    <Button
+        android:id="@+id/view3"
+        android:layout_width="@dimen/px_positive_160"
+        android:layout_height="@dimen/px_positive_66"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="@dimen/px_positive_80"
+        android:layout_marginTop="@dimen/px_positive_49"
+        android:layout_marginRight="@dimen/px_positive_50"
+        android:layout_marginBottom="@dimen/px_positive_30"
+        android:layout_toRightOf="@+id/view1"
+        android:background="@drawable/tv_dlg_btn_bg"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textColor="#fff1f1f1"
+        android:textSize="@dimen/px_positive_24" />
+
+
+</RelativeLayout>

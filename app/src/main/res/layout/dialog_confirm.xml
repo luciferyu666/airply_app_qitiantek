@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/custom_dialog_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textSize="@dimen/px_positive_36"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:id="@id/dialog_confirm_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_positive_40"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textSize="@dimen/px_positive_32"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:id="@id/dialog_confirm_body"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_positive_40"
+        android:layout_marginTop="@dimen/px_positive_40"
+        android:layout_marginRight="@dimen/px_positive_40"
+        android:layout_marginBottom="@dimen/px_positive_40"
+        android:minHeight="@dimen/px_positive_160"
+        android:layout_below="@id/dialog_confirm_title" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/px_positive_20"
+        android:paddingRight="@dimen/px_positive_20"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/px_positive_20"
+        android:layout_below="@id/dialog_confirm_body">
+
+        <Button
+            android:textColor="@drawable/custom_dialog_button_text"
+            android:id="@id/dialog_cofirm_cancel_btn"
+            android:background="@drawable/dialog_button_selector"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px_positive_20"
+            android:text="取消"
+            android:layout_weight="1.0" />
+
+        <Button
+            android:textColor="@drawable/custom_dialog_button_text"
+            android:id="@id/dialog_cofirm_ok_btn"
+            android:background="@drawable/dialog_button_selector"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/dialog_for_tag"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip" />
+</RelativeLayout>

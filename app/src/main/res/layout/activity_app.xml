@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_bj"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/rename_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/px_positive_300"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@id/rename_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/px_positive_200"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:text="@string/app_sender"
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_positive_68" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px_positive_30"
+                android:gravity="left"
+                android:text="@string/app_android"
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_positive_40" />
+
+
+<!--
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="需要Airplay 相关功能请联系我 "
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_positive_40" />
+-->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text=" "
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_positive_40" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="@string/app_win"
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_positive_40" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="@string/app_win_addr"
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_positive_40" />
+
+
+            <ImageView
+                android:id="@+id/iv_qr_down"
+                android:layout_marginTop="50dp"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="100dp"
+                android:visibility="gone"
+                android:src="@drawable/qr_phone_app" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_qr_right"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="100dp"
+            android:visibility="gone"
+            android:src="@drawable/qr_phone_app" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="airplay_pwd">Airplay接続パスワード</string>
+    <string name="use_hwdecode">クラシックプレーヤーを使う</string>
+
+
+    <string name="ad">CM</string>
+    <string name="allcast_res_auto">自動</string>
+    <string name="already_fix_connect">接続が正常に修復されました</string>
+    <string name="app_installed">アプリは正常にインストールされ、LANNOで直接開くことができます</string>
+
+
+    <string name="buisness_coopration_hint">ビジネス協力については、電話でお問い合わせください：</string>
+    <string name="buy_author">購入認証</string>
+    <string name="cancel">キャンセル</string>
+    <string name="cast_server_name">会議室のミラーリング</string>
+    <string name="check_android_version">Androidバージョン</string>
+    <string name="check_cast_delay">ミラーリングデコード性能</string>
+    <string name="check_cast_delay_des">（最高のデコード パフォーマンス基準：未満110ms）</string>
+    <string name="check_cast_unsupport">システムのバージョンが低すぎるため、デコード検出をサポートしていません</string>
+    <string name="check_device">デバイス情報</string>
+    <string name="check_mac">Mac/ipアドレス</string>
+    <string name="check_manufacturer">メーカー情報</string>
+    <string name="check_net">ネットワークの状態</string>
+    <string name="check_net_5g_des">（高速Wi-Fiに接続するか、有線ネットワークに接続すると、ミラーリング効果が向上します）</string>
+    <string name="check_net_delay">ミラーリングネットワーク遅延</string>
+    <string name="check_net_delay_des">（ベスト遅延：未満120ms）</string>
+    <string name="check_resolution">解像度</string>
+    <string name="check_result">テスト結果</string>
+    <string name="checking">テスト中...</string>
+    <string name="checking_apk_update">アップデートの確認中</string>
+    <string name="choose_tv_name">LANNOに名前を付けましょう？</string>
+    <string name="click_to_download">OKを押してダウンロードします</string>
+    <string name="close">NO</string>
+    <string name="connot_input_empty">入力内容を空にすることはできません</string>
+    <string name="continuity_priority">流暢さ優先</string>
+    <string name="cpu_low_hint">（お使いのデバイスはミラーリングをサポートしていません。4 コア以上のテレビまたはセットトップ ボックスを交換することをお勧めします）</string>
+    <string name="current">現在</string>
+    <string name="current_new_apk">現在最新バージョン</string>
+    <string name="current_version">バージョン</string>
+    <string name="detection">ミラーリング環境検出</string>
+    <string name="download_error">ダウンロードに失敗しました</string>
+    <string name="downloading_app">ダウンロード中</string>
+
+    <string name="expire_date">有効期限</string>
+    <string name="expire_day">認証残り%s日</string>
+    <string name="expire_time_over">認証期限が切れました</string>
+    <string name="failed_fix_connect">接続の修復に失敗しました。もう一度修復してください</string>
+    <string name="feedback">フィードバック</string>
+    <string name="find_new_apk_version">新しいバージョンが見つかりました。更新するかどうか？</string>
+    <string name="fix_connect">接続修復</string>
+    <string name="force">強制</string>
+    <string name="fps_max_auto">自動で選ぶ</string>
+    <string name="grab_hint">ミラーリング中にプリエンプションが発生した場合、プロンプトは表示されなくなります。</string>
+    <string name="grab_whether">Airplayの横取りを許可するかどうか</string>
+    <string name="hard_id">HARDID</string>
+    <string name="has_connected">Wi-Fi接続済み：</string>
+    <string name="has_connected_wired">有線ネットワークが接続されました</string>
+    <string name="he">コア</string>
+    <string name="help">HELP</string>
+    <string name="hint_pin_code">ミラーリングコード</string>
+    <string name="hint_setting_des">メニューキーを押して設定に入ります</string>
+    <string name="i_know">了解した</string>
+    <string name="if_doubt_contact">ミラーリングについてご質問がある場合は、右側のQRコードをスキャンしてオンライン カスタマー サービス（英語）にお問い合わせください。</string>
+    <string name="if_doubt_contact_alibaba">投屏疑问请添加QQ群联系在线客服</string>
+    <string name="input_device_name">デバイス名を入力</string>
+    <string name="input_wifi_name">输入Wi-Fi ID</string>
+    <string name="is_restore_default_setting">システムデフォルト設定の復元？</string>
+    <string name="item_adaptive">アダプティブ</string>
+    <string name="item_close">OFF</string>
+    <string name="item_game">ゲームモード</string>
+    <string name="item_open">OPEN</string>
+    <string name="item_player_auto">自動選択</string>
+    <string name="item_player_lm">プレーヤー2</string>
+    <string name="item_player_system">プレーヤー1</string>
+    <string name="item_theater">シネマモード</string>
+    <string name="jump">SKIP</string>
+    <string name="lm_service_agreement">Enterprise Edition サービスプロトコル</string>
+    <string name="loading">読み込み中%s</string>
+    <string name="loading_data">読み込み中...</string>
+    <string name="loading_failed">読み込みに失敗しました！</string>
+    <string name="mirror_model_Non_reset">リセットモードなし</string>
+    <string name="mirror_model_auto">アダプティブモード</string>
+    <string name="mirror_model_reset">リセット模式モード</string>
+    <string name="modify_success">完了</string>
+    <string name="net_error">ネットワークエラー</string>
+    <string name="network_not_connect">ネットワークが切断されました。ネットワークに接続してからもう一度お試しください！</string>
+    <string name="no_force">不强制</string>
+    <string name="nolike_change">チャンジ</string>
+    <string name="ok">OK</string>
+    <string name="one_more_back_exit">もう一度押すと終了します</string>
+    <string name="open">OPEN</string>
+    <string name="pin_code">ミラーリングコード</string>
+    <string name="press_to_pay">[OK] を押してオーソリを購入します</string>
+    <string name="protection">スクリーンロック</string>
+    <string name="protection_is_open">開くかどうか</string>
+    <string name="protection_lan">LANミラーリングハラスメント対策</string>
+    <string name="protection_lan_device_list">LAN プロジェクション デバイス管理</string>
+    <string name="protection_wan">クラウド キャスト画面の嫌がらせ防止</string>
+    <string name="protection_wan_device_list">ミラーリングデバイス</string>
+    <string name="qr_code_show_whether">ホームページのQRコードを表示するかどうか</string>
+    <string name="quality_priority">画質優先</string>
+
+    <string name="realse_server_hint">検索すると、このデバイスに接続できます</string>
+    <string name="server_searchable">Airplay 検索による発見を許可するかどうか</string>
+    <string name="repair">ワンキー修理</string>
+    <string name="request_time_out">リクエストがタイムアウトしました。クリックして再試行してください！</string>
+    <string name="restore_success">回復成功</string>
+    <string name="retry">リトライ</string>
+    <string name="server_name">デバイス</string>
+    <string name="set_frame_rate">解像度を設定</string>
+    <string name="setting">設定</string>
+    <string name="setting_connect_us">お問い合わせ（ソフトウェアおよびハードウェアのカスタマイズ）</string>
+    <string name="setting_connect_us_des">お好きな連絡方法をお選びください</string>
+    <string name="setting_define_name">カスタム名</string>
+    <string name="setting_define_name_des">テレビ名、現在のデバイス名を再選択します：</string>
+    <string name="setting_define_name_hint">デバイス名に不正な文字が含まれています。再入力してください</string>
+    <string name="setting_developer_options">開発者向けオプション</string>
+    <string name="setting_developer_options_des">オンにすると、開発およびデバッグ用に、ミラーリング中にテレビ画面の右下隅に画面のリフレッシュ レートが表示されます。</string>
+    <string name="setting_forced_mirror_rotation">強制ミラー回転</string>
+    <string name="setting_forced_mirror_rotation_des">ミラーリングした横画面の画像がテレビに異常に表示される場合は、モードを切り替えてみてください。</string>
+    <string name="setting_max_frame_rate">最大フレームレート</string>
+    <string name="setting_max_frame_rate_des">LAN の状態が良好な場合は、最大フレーム レートを上げることができます。逆の場合も同様です。</string>
+    <string name="setting_mirror">ミラーリング設定</string>
+    <string name="setting_mirror_mode">ミラーリングモード</string>
+    <string name="setting_mirror_mode_des">ミラーリングプロセス中に、黒い画面や遅延などの異常な画面が発生した場合は、モードの切り替えを試みることができます</string>
+    <string name="setting_mirror_resolution">ミラー解像度</string>
+    <string name="setting_mirror_youtube">YouTubeミラーリング</string>
+解像度が高いほど、画像が鮮明になります
+    <string name="setting_mirror_resolution_des">解像度が高いほど、画像が鮮明になります</string>
+    <string name="setting_restore_default_setting">デフォルト設定を復元する</string>
+    <string name="setting_restore_default_setting_des">システムの初期設定に戻す</string>
+    <string name="setting_version_update">現在のバージョン</string>
+    <string name="setting_version_update_des">最新バージョンの確認と更新</string>
+    <string name="setting_video_player">ビデオプレーヤー</string>
+    <string name="setting_video_player_des">動画をキャストした後、黒い画面またはフリーズが発生した場合は、プレーヤーを切り替えてみてください</string>
+
+    <string name="soft_down_loading">ダウンロード中</string>
+    <string name="soft_local_update_info">新しいバージョンが見つかりました</string>
+    <string name="soft_update_hide">HIDE</string>
+    <string name="soft_update_time">更新時間</string>
+    <string name="soft_updating">更新中</string>
+    <string name="to_hurry_click_wait">接続を修復しています。しばらくお待ちください</string>
+    <string name="try_day">試用期間は残り %s 日です</string>
+    <string name="try_time_over">トライアルの有効期限が切れました</string>
+    <string name="unknow">unknown</string>
+    <string name="update">更新</string>
+    <string name="version_update">新バージョンの更新</string>
+    <string name="view_cast_tutorial">HOW TO ミラーリング</string>
+    <string name="watermark_name">ミラーリング</string>
+    <string name="wechat_scan">"WeChatを開いてスキャンする
+公式アカウントに注意"</string>
+
+    <string name="wechat_scan_flow">WeChat Scan</string>
+    <string name="weixingongzonghao">WeChat パブリック アカウント オンライン カスタマー サービス</string>
+    <string name="wifi_channel">周波数帯域</string>
+    <string name="wifi_name">Wi-Fi ID</string>
+    <string name="wifi_name_des">有線ネットワークに接続するときは、Wi-Fi 名を書き留めて、画面をキャストする人がテレビに接続されている現在のネットワークを知ることができます。</string>
+    <string name="wifi_name_des2">（このプロファイル名は、テレビが有線ネットワークに接続されている場合にのみホームページの下部に表示されます）</string>
+    <string name="wired_network">有線ネットワーク</string>
+
+    <!-- Home -->
+
+    <!-- Digital Media Download/Uploader -->
+
+    <!-- Digital Media Player -->
+
+    <!-- Digital Media Server -->
+
+    <!-- Settings -->
+
+    <!-- Plugins Picture Player -->
+
+    <!-- Plugins Music Player -->
+
+    <!-- Plugins Video Player -->
+    <string name="plug_video_loading">ビデオの読み込み中…</string>
+
+    <!-- home screen -->
+    <!--<string name="second_step_dual"> 选择本设备开始屏幕镜像/视频投屏, PC版支持投屏码投屏 </string> -->
+
+    <!-- 作为app 使用, 不带wfd -->
+
+    <string name="app_sender">送信先</string>
+    <string name="app_android">QR コードをスキャンして、送信者アプリを Androidモバイルにインストール。</string>
+    <string name="app_win">Windows送信先ダウンロードアドレス:  </string>
+    <string name="app_win_addr"> http://iosair.cn  </string>
+
+    <string name="accept_always"> 常に許可する </string>
+    <string name="accept"> YES</string>
+    <string name="refuse"> NO </string>
+    <string name="try_cast"> LANNOデバイスに画面をキャストしようとしていますが、許可されていますか?</string>
+
+
+    <string name="app_name">BLUEBERRY MIRRORING</string>
+
+
+    <string name="second">S</string>
+    <string name="separate">/</string>
+    <string name="load_image_fail">画像を読み込めませんでした</string>
+    <string name="init_time">00:00</string>
+    <string name="parse_image_fail">画像の解析に失敗しました</string>
+    <string name="toast_musicplay_fail">音楽の再生に失敗しました</string>
+    <string name="toast_videoplay_fail">ビデオの再生に失敗しました。クラシック プレーヤーに切り替えて試してください</string>
+    <string name="mp_unknown_artist">無名</string>
+
+    <string name="sign">ログイン 登録</string>
+
+    <string name="signout">サインアウト</string>
+    <string name="login">登録</string>
+    <string name="scan_to_login">【%s】Android APP スキャン コード ログイン</string>
+    <string name="exit_tip">終了しますか?</string>
+    <string name="click_exit">もう一度クリックと終了します</string>
+
+
+    <string name="exit">終了</string>
+
+    <string name="exit_cast">ミラーリングを終了</string>
+
+    <string name="devname">デバイス:</string>
+    <string name="press_menu">【メニューキー】をクリック</string>
+    <string name="enter_setting">設定</string>
+    <string name="ip_addr">IPアドレス：</string>
+    <string name="hotline">さらに質問がある場合は、カスタマーサービスにお問い合わせください </string>
+    <string name="ver">バージョン：</string>
+    <string name="keep_same_network">ミラーリングする携帯電話またはコンピューターを、LANNOデバイスと同じネットワークに接続したままにしてください。</string>
+    <string name="android_win_cast">
+Android携帯電話、コンピューター画面のミラーリング</string>
+    <string name="app_code">ミラーリングコードを入力</string>
+    <string name="scan_download_app">画面ミラーリングBLUEBERRY APPでスキャンコード蓝莓投屏APP扫码投屏</string>
+    <string name="ios_cast">
+iPhoneの画面ミラーリング</string>
+    <string name="notice">ヒント</string>
+    <string name="booting">起動中...</string>
+
+
+
+</resources>
